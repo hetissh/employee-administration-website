@@ -1,0 +1,80 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #666;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  }
+  
+  .login-form {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-form h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .txtb {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .txtb label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .txtb input,
+  .txtb select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .txtb input[type='file'] {
+    font-size: 14px;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .txtb select {
+    cursor: pointer;
+  }
+  
+  .txtb input:focus,
+  .txtb select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #719ECE;
+  }
+  
+  .subbtn {
+    background-color: #353535;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .subbtn:hover {
+    background-color: rgb(54, 54, 54);
+  }
+  
+  /* Align the radio buttons */
+  .txtb input[type='radio'] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
